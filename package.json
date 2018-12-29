@@ -1,0 +1,52 @@
+{
+  "name": "rock-paper-scissors-web",
+  "main": "index.js",
+  "version": "1.0.0",
+  "description": "Rock Paper Scissors Machine Learning Web",
+  "author": {
+    "name": "Tiago Danin",
+    "email": "TiagoDanin@outlook.com",
+    "url": "https://TiagoDanin.github.io"
+  },
+  "license": "MIT",
+  "keywords": [
+    "machine",
+    "learning",
+    "machine-learning",
+    "ia",
+    "brainjs",
+    "rock",
+    "paper",
+    "scissors",
+    "rock-paper-scissors",
+    "web"
+  ],
+  "scripts": {
+    "build": "webpack --mode production --entry . --output-filename=webpack.js"
+  },
+  "private": false,
+  "repository": "https://github.com/TiagoDanin/Rock-Paper-Scissors-Web.git",
+  "homepage": "https://TiagoDanin.github.io/Rock-Paper-Scissors-Web",
+  "bugs": "https://github.com/TiagoDanin/Rock-Paper-Scissors-Web/issues",
+  "github": {
+    "name": "Rock-Paper-Scissors-Web",
+    "owner": "TiagoDanin"
+  },
+  "files": [
+    "LICENSE",
+    "README.md",
+    "dist",
+    "index.html",
+    "index.js",
+    "package.json",
+    "webpack.config.js"
+  ],
+  "dependencies": {
+    "chart.js": "2.7.3",
+    "rock-paper-scissors-ml": "1.1.0"
+  },
+  "devDependencies": {
+    "webpack": "4.17.1",
+    "webpack-cli": "3.1.2"
+  }
+}
