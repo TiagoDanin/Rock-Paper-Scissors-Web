@@ -1,0 +1,9 @@
+template_raw: 'https://raw.githubusercontent.com/TiagoDanin/TiagoDanin.github.io/master/cubohub/default.html'
+link_template_raw: 'https://raw.githubusercontent.com/TiagoDanin/TiagoDanin.github.io/master/cubohub/links.html'
+readme: False
+iframe: 'index.html'
+language: 'JavaScript'
+branch: 'gh-pages'
+gitauthor:
+  name: 'TiagoDanin'
+  email: 'TiagoDanin@outlook.com'
