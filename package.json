@@ -42,7 +42,6 @@
     "webpack.config.js"
   ],
   "dependencies": {
-    "chart.js": "2.7.3",
     "rock-paper-scissors-ml": "1.1.0"
   },
   "devDependencies": {
