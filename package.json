@@ -1,7 +1,7 @@
 {
   "name": "rock-paper-scissors-web",
   "main": "index.js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Rock Paper Scissors Machine Learning Web",
   "author": {
     "name": "Tiago Danin",
@@ -22,7 +22,9 @@
     "web"
   ],
   "scripts": {
-    "build": "webpack --mode production --entry . --output-filename=webpack.js"
+    "start": "webpack",
+    "test": "webpack",
+    "build": "webpack"
   },
   "private": false,
   "repository": "https://github.com/TiagoDanin/Rock-Paper-Scissors-Web.git",
@@ -47,5 +49,18 @@
   "devDependencies": {
     "webpack": "4.17.1",
     "webpack-cli": "3.1.2"
-  }
+  },
+  "features": [
+    "Webview",
+    "Machine Learning",
+    "Fun Game :)"
+  ],
+  "usage": {
+	  "language": "url",
+	  "content": "https://tiagodanin.github.io/Rock-Paper-Scissors-Web/"
+  },
+  "related": [
+    "rock-paper-scissors-cli",
+    "rock-paper-scissors-ml"
+  ]
 }
