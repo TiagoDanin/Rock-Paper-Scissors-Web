@@ -13,7 +13,7 @@ var colors = ['#e91e63', '#f44336', '#6da828', '#ff5722', '#9650a2']
 const run = rockPaperScissors(config)
 
 const setScore = () => {
-	document.getElementById('h2:score').innerText = `${config.score.player}:${config.score.machine}`;
+	document.getElementById('h2:score').innerText = `${config.score.player}:${config.score.machine}`
 }
 
 const select = (e) => {
@@ -23,18 +23,18 @@ const select = (e) => {
 
 	switch(result.winHumane) {
 		case 1:
-			resultText = 'WIN!';
-			config.score.player = config.score.player + 1;
-			break;
+			resultText = 'WIN!'
+			config.score.player++
+			break
 		case 0:
-			resultText = 'LOST';
-			config.score.machine++;
-			break;
+			resultText = 'LOST'
+			config.score.machine++
+			break
 		default:
-			resultText = 'NO ONE WON!';
+			resultText = 'NO ONE WON!'
 	}
 
-	setScore();
+	setScore()
 
 	document.getElementById('sp:you').innerText = result.answerHumane
 	document.getElementById('sp:machine').innerText = result.answerMachine
@@ -44,7 +44,7 @@ const select = (e) => {
 	colors = [colors[4], ...colors.splice(0, 4)]
 }
 
-window.addEventListener('load', setScore);
+window.addEventListener('load', setScore)
 
 document.getElementById('bt:rock').addEventListener('click', select, false)
 document.getElementById('bt:paper').addEventListener('click', select, false)
