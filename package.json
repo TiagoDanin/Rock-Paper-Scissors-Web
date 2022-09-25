@@ -48,7 +48,7 @@
 	},
 	"devDependencies": {
 		"webpack": "^4.44.2",
-		"webpack-cli": "^3.3.12"
+		"webpack-cli": "^4.10.0"
 	},
 	"features": [
 		"Webview",
